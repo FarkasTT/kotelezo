@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>házi</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="stilus.css">
+</head>
+<body>
+ Név <input type="text" id="nev">
+ Ár <input type="text" id="ar">
+ Szin <input type="text" id="szin">
+ Méret <input type="text" id="meret">
+ Anyag <input type="text" id="anyag">
+ <button onclick="bevitel()">Ok</button>
+
+
+<div class="row" id="sorok">
+   
+  </div> 
+
+  <div style="margin:20px">
+  <table class="table table-dark" >
+    <thead>
+      <tr>
+        <th>id</th>
+        <th>Neve</th>
+        <th>Ára</th>
+        <th>Szine</th>
+        <th>Mérete</th>
+        <th>Anyag</th>
+      </tr>
+    </thead>
+    <tbody id="tablazat">
+     
+    </tbody>
+  </table>
+</div>
+</body>
+<script src="alap.js"></script>
+</html>
